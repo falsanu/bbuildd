@@ -1,0 +1,23 @@
+.brand {
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: -8.5px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 48px;
+  // text-shadow: 0 0 4px rgba(0,0,0,0.5);
+  color: hsla(0,0%,100%,.2);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.62);
+
+  &--falsanu{
+    letter-spacing: -4px;
+    color: rgba(255,115,43,.29);
+    font-size: 32px;
+    font-family: monospace;
+  }
+
+  @media (min-width: 450px) {
+    padding: 2em;
+  }
+}

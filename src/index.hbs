@@ -3,29 +3,84 @@
 * ========================================================================== --}}
 {{#with index}}
 
-{{!--
+  {{!--
 * Use the default layout (src/_templates/_partials/_layouts/default.hbs) for
 * this page and set the parameter (page-title) for the layout.
 * ========================================================================== --}}
   {{#> _layouts/default page-title=page-title}}
 
-    <header>
-      <p>page header</p>
-      <h1>{{page-title}}</h1>
-    </header>
+  <div class="computer">
+    <div class="computer__name">History of hardware</div><div class="computer__divider">-</div>
+    <div class="computer__name">286 12 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name">P75 90 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name">AMD K62 300 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name">DRN 800 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name">ATN 2800 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name">P3M 1066 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name">C2D 2800 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name"> IM2D 2660 MHz</div><div class="computer__divider">|</div>
+    <div class="computer__name"> Ci7 2600 MHz</div>
+  </div>
+    <main class="site__content">
+      <div class="site__body">
+        <main class="site__mainContent">
+          <div class="brand brand--falsanu">
+            falsanu
+          </div>
+          <div class="language">
 
-    <main>
-      <p>page main content</p>
-      <p>{{content}}</p>
+            <div class="language__name">HTML</div><div class="language__divider">|</div>
+            <div class="language__name">Javascript</div><div class="language__divider">|</div>
+            <div class="language__name">CSS</div><div class="language__divider">|</div>
 
+            <div class="language__name">PHP</div><div class="language__divider">|</div>
+            <div class="language__name">nodeJS</div>
 
-      {{> _components/component }}
+          </div>
+
+          <div class="language">
+            <div class="language__name">Grunt</div><div class="language__divider">|</div>
+            <div class="language__name">Gulp</div><div class="language__divider">|</div>
+            <div class="language__name">SASS</div><div class="language__divider">|</div>
+            <div class="language__name">LESS</div><div class="language__divider">|</div>
+            <div class="language__name">GIT</div><div class="language__divider">|</div>
+            <div class="language__name">Jenkins</div>
+          </div>
+
+          <div class="language language--history">
+            <div class="language__name">Basic</div><div class="language__divider">|</div>
+            <div class="language__name">Turbo Pascal</div><div class="language__divider">|</div>
+            <div class="language__name">Delphi 3</div><div class="language__divider">|</div>
+            <div class="language__name">PERL</div><div class="language__divider">|</div>
+            <div class="language__name">XHTML</div><div class="language__divider">|</div>
+            <div class="language__name">Lingo/Director</div><div class="language__divider">|</div>
+            <div class="language__name">Actionscript</div><div class="language__divider">|</div>
+            <div class="language__name">Flash</div><div class="language__divider">|</div>
+            <div class="language__name">Adobe Suite</div><div class="language__divider">|</div>
+            <div class="language__name">3DS Max</div><div class="language__divider">|</div>
+            <div class="language__name">Cinema 4d</div> <div class="language__divider">|</div>
+            <div class="language__name">Angular</div><div class="language__divider">|</div>
+            <div class="language__name">React</div><div class="language__divider">|</div>
+            <div class="language__name">Wordpress</div><div class="language__divider">|</div>
+            <div class="language__name">Drupal</div><div class="language__divider">|</div>
+            <div class="language__name">BEM</div><div class="language__divider">|</div>
+            <div class="language__name">SMACSS</div><div class="language__divider">|</div>
+            <div class="language__name">Responsive</div><div class="language__divider">|</div>
+            <div class="language__name">Apache</div><div class="language__divider">|</div>
+            <div class="language__name">Linux</div><div class="language__divider">|</div>
+            <div class="language__name">Windows</div><div class="language__divider">|</div>
+            <div class="language__name">Mac</div><div class="language__divider">|</div>
+            <div class="language__name">Mandrill</div><div class="language__divider">|</div>
+            <div class="language__name">MailChimp</div><div class="language__divider">|</div>
+            <div class="language__name">Swift3 (poor noob)</div><div class="language__divider"></div>
+            <div class="language__name">... still gettin' better</div>
+          </div>
+        </main>
+      </div>
     </main>
 
-    <footer>
-      <p>page footer</p>
-    </footer>
+    {{> _components/footer }}
 
-  {{/_layouts/default}}
+    {{/_layouts/default}}
 
 {{/with}}

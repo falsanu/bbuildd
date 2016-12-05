@@ -1,0 +1,15 @@
+.computer{
+    color: hsla(0,0%,100%,0.6);
+    font-size: 10px;
+    width: 100%;
+    overflow: scroll;
+    text-align: center;
+    position: relative;
+  &__name{
+    display: inline;
+  }
+  &__divider{
+    display: inline;
+    padding: 0 0.5em;
+  }
+}

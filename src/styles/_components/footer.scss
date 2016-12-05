@@ -1,0 +1,22 @@
+
+.footer{
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  padding: 2em;
+  color: hsla(0,0%,100%,0.6);
+  // font-size: .8em;
+  letter-spacing: 0.45px;
+  font-size: 11px;
+  a{
+    color: hsla(0,0%,100%,0.6);
+    text-decoration: none;
+  }
+
+  &__links, &__info{
+    width:100%;
+    text-align: center;
+    padding: 0.5em;
+  }
+
+}

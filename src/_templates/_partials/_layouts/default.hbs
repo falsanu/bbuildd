@@ -4,16 +4,27 @@
   <meta charset="UTF-8">
   <title>{{page-title}}</title>
 
-  <link href="styles/styles.css" rel="stylesheet" data-inline>
+  <link href="/styles/styles.css" rel="stylesheet" data-inline>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.digital-bohemians.com/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="https://cdn.digital-bohemians.com/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://cdn.digital-bohemians.com/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="https://cdn.digital-bohemians.com/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 
 </head>
-<body>
+<body class="site">
 
 {{> @partial-block }}
+        <!-- <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-5981922-14','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
 
-<script src="scripts/main.min.js" data-inline></script>
 
 </body>
 </html>
